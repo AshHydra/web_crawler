@@ -1,0 +1,225 @@
+[19:52:46][PluginLoader][WARNING] Plugins directory not found.
+[19:52:46][ProcessManager][WARNING] Failed to read PIDs: pid-list.txt (Systém nemůže nalézt uvedený soubor)
+[19:52:46][NATTCore][INFO] NATT CORE initialization done
+Version: 1.7.0 
+Configuration path: https://gitlab.com/ap5vs/test-config/web-crawler-config/-/raw/main/test-config-5.yaml?ref_type=heads
+Configuration loading mode: FROM URL
+[19:52:46][NATTCore][INFO] Working directory path: C:\Users\ash31\OneDrive\Dokumenty\GitHub\web-crawler-main
+[19:52:46][NATTCore][INFO] Start loading of the configuration file ...
+[19:52:47][NetworkIO][INFO] Yaml data has been loaded from network location (https://gitlab.com/ap5vs/test-config/web-crawler-config/-/raw/main/test-config-5.yaml?ref_type=heads)
+[19:52:47][NATTCore][INFO] Configuration loading done
+[19:52:47][NATTCore][INFO] Start building test structure according to the configuration ...
+[19:52:47][NATTCore][INFO] Test structure ...
+[19:52:47][NATTCore][INFO] Test structure building done
+[19:52:47][NATTCore][INFO] Start test executing ...
+[19:52:47][TestReportGenerator][INFO] Extenet reports generated. Final report will be saved to file: test_report.html
+[19:52:47][NATTCore][INFO] Starts execution on the root keyword  ...
+[19:52:47][TestSuiteKw][INFO] Test case 'Test utb.cz s hloubkou 0' starts executing now
+[19:52:47][MessageBuffer][INFO] Message buffer created for module with name: default
+[19:52:47][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 13000 ms
+[19:52:48][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar app/build/libs/app-all.jar https://www.utb.cz/en/ 0 0
+[19:52:48][ProcessManager][INFO] New PID (25264) added to file
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'color;178'
+[19:52:49][WaitUntilKw][INFO] Action triggered from module 'default'
+[19:52:49][NATTContext][INFO] Data has been stored in to the variable 'default-action-msg'. Data value: color;178
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'wp;120'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'preset;96'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'background;91'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'the;90'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'important;79'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'has;76'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'of;73'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '0;71'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'and;67'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'to;67'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'vivid;65'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'gradient;62'
+[19:52:49][WaitUntilKw][INFO] Action was invoked. Elapsed time: 2107 ms
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'var;57'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'border;54'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'mdocs;53'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'cyan;49'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'is;49'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'cookie;45'
+[19:52:49][MessageBuffer][INFO] Message buffer created for module with name: module-1
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'table;37'
+[19:52:49][WebCrawler][INFO] (module-1) Webcrawler is running now. Start URL: https://www.utb.cz/en/
+[19:52:49][ProcessManager][INFO] PID (25264) removed from file
+[19:52:49][ExternalProgramRunner][INFO] (default) External application ends with exit code 0
+[19:52:49][WebCrawler][INFO] (module-1) Job finished [elapsed time: 0,333 s]
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-1 ] Content: 'the;76'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-2 ] Content: 'of;72'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-3 ] Content: 'and;64'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-4 ] Content: 'to;47'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-5 ] Content: 'cookie;28'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-6 ] Content: 'by;24'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-7 ] Content: 'for;24'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-8 ] Content: 'is;24'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-9 ] Content: 'cookies;21'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-10 ] Content: 'Faculty;18'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-11 ] Content: 'in;18'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-12 ] Content: 'Centre;17'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-13 ] Content: 'TBU;17'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-14 ] Content: 'user;17'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-15 ] Content: 'University;16'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-16 ] Content: 'on;16'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-17 ] Content: 'used;15'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-18 ] Content: 'are;14'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-19 ] Content: 'The;13'
+[19:52:49][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-20 ] Content: 'set;13'
+[19:52:49][AssertEqualsKw][WARNING] Assertion failed. At index 0 value 'color;178' is not equal to 'the;76'. (Comparison rule: ;|#;12)'
+[19:52:49][TestSuiteKw][ERROR] Test suite 'Testování Web crawleru pro hloubku 0' - Test case 'Test utb.cz s hloubkou 0' failed
+[19:52:49][MessageBuffer][INFO] Message buffer cleared
+[19:52:50][TestSuiteKw][INFO] Test case 'Test jlcpcb.com s hloubkou 0' starts executing now
+[19:52:50][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 13000 ms
+[19:52:51][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar app/build/libs/app-all.jar https://jlcpcb.com/ 0 0
+[19:52:51][ProcessManager][INFO] New PID (32540) added to file
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'to;12'
+[19:52:52][WaitUntilKw][INFO] Action triggered from module 'default'
+[19:52:52][NATTContext][INFO] Data has been stored in to the variable 'default-action-msg'. Data value: to;12
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'pcb;12'
+[19:52:52][WaitUntilKw][INFO] Action was invoked. Elapsed time: 1961 ms
+[19:52:52][WebCrawler][INFO] (module-1) Webcrawler is running now. Start URL: https://jlcpcb.com/
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'now;10'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'time;10'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'quote;9'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'support;9'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2;8'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '24;8'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'learn;8'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'jlcpcb;8'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'in;8'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'and;8'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'hours;7'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'from;7'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'build;7'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'the;6'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'parts;6'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'for;6'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'more;6'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'help;6'
+[19:52:52][ProcessManager][INFO] PID (32540) removed from file
+[19:52:52][ExternalProgramRunner][INFO] (default) External application ends with exit code 0
+[19:52:52][WebCrawler][INFO] (module-1) Job finished [elapsed time: 0,214 s]
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-1 ] Content: '-;15'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-2 ] Content: 'PCB;10'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-3 ] Content: 'to;9'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-4 ] Content: 'Quote;9'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-5 ] Content: '>;8'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-6 ] Content: '24;8'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-7 ] Content: 'Learn;8'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-8 ] Content: 'Now;8'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-9 ] Content: 'Support;8'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-10 ] Content: 'and;8'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-11 ] Content: 'Time:;7'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-12 ] Content: 'Build;7'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-13 ] Content: 'From;7'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-14 ] Content: '$2;6'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-15 ] Content: 'for;6'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-16 ] Content: 'More;6'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-17 ] Content: 'PCBs;6'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-18 ] Content: 'Parts;5'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-19 ] Content: 'days;5'
+[19:52:52][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-20 ] Content: 'hours;5'
+[19:52:52][AssertEqualsKw][WARNING] Assertion failed. At index 0 value 'to;12' is not equal to '-;15'. (Comparison rule: ;|#;12)'
+[19:52:52][TestSuiteKw][ERROR] Test suite 'Testování Web crawleru pro hloubku 0' - Test case 'Test jlcpcb.com s hloubkou 0' failed
+[19:52:52][MessageBuffer][INFO] Message buffer cleared
+[19:52:53][MessageBuffer][INFO] Message buffer cleared
+[19:52:53][TestSuiteKw][INFO] Test case 'Test wokwi.com s hloubkou 1' starts executing now
+[19:52:53][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 70000 ms
+[19:52:54][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar app/build/libs/app-all.jar https://wokwi.com/ 1 0
+[19:52:54][ProcessManager][INFO] New PID (32820) added to file
+[19:52:55][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'redirecting;1'
+[19:52:55][WaitUntilKw][INFO] Action triggered from module 'default'
+[19:52:55][NATTContext][INFO] Data has been stored in to the variable 'default-action-msg'. Data value: redirecting;1
+[19:52:55][WaitUntilKw][INFO] Action was invoked. Elapsed time: 1969 ms
+[19:52:55][WebCrawler][INFO] (module-1) Webcrawler is running now. Start URL: https://wokwi.com/
+[19:52:55][ProcessManager][INFO] PID (32820) removed from file
+[19:52:55][ExternalProgramRunner][INFO] (default) External application ends with exit code 0
+[19:52:57][WebCrawler][INFO] (module-1) Job finished [elapsed time: 1,817 s]
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-1 ] Content: ';2433'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-2 ] Content: '0x00,;812'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-3 ] Content: 'the;642'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-4 ] Content: '=;517'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-5 ] Content: '//;434'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-6 ] Content: 'to;391'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-7 ] Content: '{;360'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-8 ] Content: 'and;301'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-9 ] Content: '};290'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-10 ] Content: 'of;258'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-11 ] Content: 'or;227'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-12 ] Content: 'for;199'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-13 ] Content: 'your;190'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-14 ] Content: 'you;174'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-15 ] Content: 'in;148'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-16 ] Content: 'if;147'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-17 ] Content: '-;122'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-18 ] Content: 'with;121'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-19 ] Content: 'a;119'
+[19:52:57][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-20 ] Content: 'uint8_t;94'
+[19:52:57][AssertEqualsKw][WARNING] Assertion failed. At index 0 value 'redirecting;1' is not equal to ';2433'. (Comparison rule: ;|#;30)'
+[19:52:57][TestSuiteKw][ERROR] Test suite 'Testování Web crawleru pro hloubku 1' - Test case 'Test wokwi.com s hloubkou 1' failed
+[19:52:57][MessageBuffer][INFO] Message buffer cleared
+[19:52:57][TestSuiteKw][INFO] Test case 'Test jlcpcb.com s hloubkou 1' starts executing now
+[19:52:57][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 70000 ms
+[19:52:59][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar app/build/libs/app-all.jar https://jlcpcb.com/ 1 0
+[19:52:59][ProcessManager][INFO] New PID (8064) added to file
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'to;12'
+[19:52:59][WaitUntilKw][INFO] Action triggered from module 'default'
+[19:52:59][NATTContext][INFO] Data has been stored in to the variable 'default-action-msg'. Data value: to;12
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'pcb;12'
+[19:52:59][WaitUntilKw][INFO] Action was invoked. Elapsed time: 1982 ms
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'now;10'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'time;10'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'quote;9'
+[19:52:59][WebCrawler][INFO] (module-1) Webcrawler is running now. Start URL: https://jlcpcb.com/
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'support;9'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2;8'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '24;8'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'learn;8'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'jlcpcb;8'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'in;8'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'and;8'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'hours;7'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'from;7'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'build;7'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'the;6'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'parts;6'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'for;6'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'more;6'
+[19:52:59][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'help;6'
+[19:52:59][ProcessManager][INFO] PID (8064) removed from file
+[19:52:59][ExternalProgramRunner][INFO] (default) External application ends with exit code 0
+[19:53:01][Parser][WARNING] Failed to parse web page 'https://www.instagram.com/jlcpcb'
+[19:53:02][WebCrawler][INFO] (module-1) Job finished [elapsed time: 2,679 s]
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-1 ] Content: 'the;1041'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-2 ] Content: 'and;1037'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-3 ] Content: 'to;919'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-4 ] Content: 'of;545'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-5 ] Content: 'PCB;508'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-6 ] Content: 'in;431'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-7 ] Content: 'for;423'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-8 ] Content: 'is;399'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-9 ] Content: 'a;393'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-10 ] Content: 'your;359'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-11 ] Content: 'JLCPCB;349'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-12 ] Content: '-;344'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-13 ] Content: 'you;337'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-14 ] Content: 'or;322'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-15 ] Content: 'with;284'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-16 ] Content: '3D;193'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-17 ] Content: 'be;188'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-18 ] Content: 'on;187'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-19 ] Content: 'by;182'
+[19:53:02][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: word-20 ] Content: 'The;180'
+[19:53:02][AssertEqualsKw][WARNING] Assertion failed. At index 0 value 'to;12' is not equal to 'the;1041'. (Comparison rule: ;|#;30)'
+[19:53:02][TestSuiteKw][ERROR] Test suite 'Testování Web crawleru pro hloubku 1' - Test case 'Test jlcpcb.com s hloubkou 1' failed
+[19:53:02][MessageBuffer][INFO] Message buffer cleared
+[19:53:03][MessageBuffer][INFO] Message buffer cleared
+[19:53:03][MessageBuffer][INFO] Message buffer cleared
+[19:53:03][NATTCore][INFO] Test executing finished
+[19:53:03][NATTCore][INFO] Start generating test report
+[19:53:03][TestReportGenerator][INFO] Report saved to file
+[19:53:03][NATTCore][WARNING] Failed test cases: "Test utb.cz s hloubkou 0", "Test jlcpcb.com s hloubkou 0", "Test wokwi.com s hloubkou 1", "Test jlcpcb.com s hloubkou 1"
+[19:53:03][NATTCore][INFO] Final score: 0,000000
+[19:53:03][NATTCore][ERROR] Testing done. Leaving status: FAILED
